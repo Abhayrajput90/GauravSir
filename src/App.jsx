@@ -5,6 +5,7 @@ import Footer from './Coponents/footer'
 import Spinner from './Coponents/spinner'
 
 function App() {
+  
   return (
     <>
     <Spinner />
