@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import services from './Services.json'
+=======
+import services from './Main.json'
+>>>>>>> 730771c (Abhay)
 
 const Services = () => {
   return (
@@ -12,7 +16,11 @@ const Services = () => {
           <h1 className="display-5 mb-5">What We Offer</h1>
         </div>
         <div className="row g-4">
+<<<<<<< HEAD
           {services.map((service, index) => (
+=======
+          {services.Services.map((service, index) => (
+>>>>>>> 730771c (Abhay)
             <div
               key={index}
               className={`col-lg-3 col-md-6 col-sm-12 wow bounceInUp`}

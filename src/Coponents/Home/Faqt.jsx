@@ -55,3 +55,8 @@ export const Faqt = ({ stats, videoUrl }) => {
     </div>
   )
 }
+<<<<<<< HEAD
+=======
+
+export default Faqt
+>>>>>>> 730771c (Abhay)

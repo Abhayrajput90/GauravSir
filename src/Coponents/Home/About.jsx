@@ -31,3 +31,8 @@ export const About = ({ imageSrc, title, description, features, aboutLink, }) =>
     </div>
   )
 }
+<<<<<<< HEAD
+=======
+
+export default About
+>>>>>>> 730771c (Abhay)

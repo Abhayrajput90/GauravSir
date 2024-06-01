@@ -2,6 +2,11 @@ import React from "react"
 import { About } from "./Home/About"
 import { Faqt } from "./Home/Faqt";
 import Services from "./Home/Services";
+<<<<<<< HEAD
+=======
+import Gallery from "./Home/Gallery";
+import Menu from "./Home/Menu";
+>>>>>>> 730771c (Abhay)
 
 function Home() {
     const aboutData = {
@@ -47,6 +52,7 @@ function Home() {
             <About {...aboutData}/>
             <Faqt stats={stats} videoUrl={videoUrl}/>
             <Services/>
+<<<<<<< HEAD
 
 
             
@@ -814,6 +820,10 @@ function Home() {
                     </div>
                 </div>
             </div>
+=======
+            <Gallery/>
+            <Menu/>
+>>>>>>> 730771c (Abhay)
 
             <div className="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">
                 <div className="container">
