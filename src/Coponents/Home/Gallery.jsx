@@ -41,8 +41,8 @@ const Gallery = () => {
         <div className="row g-4">
           {filteredData.map((event, index) => (
             <div key={index} className="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay={`${0.1 * (index + 1)}s`}>
-              <div className="event-img position-relative">
-                <img className="img-fluid rounded w-100" src={event.img} alt={event.category} />
+              <div className="event-img position-relative" style={{ height: '300px' }}>
+                <img className="img-fluid rounded w-100 h-100" src={event.img} alt={event.category} />
                 <div className="event-overlay d-flex flex-column p-4">
                   <h4 className="me-auto">{event.category}</h4>
                   <a href={event.img} data-lightbox={event.category.toLowerCase()} className="my-auto"><i className="fas fa-search-plus text-dark fa-2x"></i></a>
