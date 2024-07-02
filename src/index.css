@@ -3,3 +3,14 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+.btn-hover:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.feature-item {
+  transition: transform 0.3s ease;
+}
+.feature-item:hover {
+  transform: scale(1.05);
+}
