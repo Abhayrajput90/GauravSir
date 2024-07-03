@@ -20,7 +20,7 @@ const Menu = () => {
     <div className="container-fluid menu bg-light py-6 my-6">
       <div className="container">
         <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
-          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Menu</small>
+          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border   rounded-pill px-4 py-1 mb-3">Our Menu</small>
           <h1 className="display-5 mb-5">Most Popular Food in the World</h1>
         </div>
         <div className="tab-className text-center">
@@ -28,7 +28,7 @@ const Menu = () => {
             {['Starter', 'Main Course', 'Drinks', 'Offers', 'Our Special'].map((category, index) => (
               <li key={index} className="nav-item p-2">
                 <a
-                  className={`d-flex py-2 mx-2 border border-primary bg-white rounded-pill ${activeTab === category ? 'active' : ''}`}
+                  className={`d-flex text-decoration-none py-2 mx-2 border   bg-white rounded-pill ${activeTab === category ? 'active' : ''}`}
                   onClick={() => handleTabClick(category)}
                   href="#!"
                 >
@@ -44,9 +44,9 @@ const Menu = () => {
               <div className="menu-item d-flex align-items-center">
                 <img className="flex-shrink-0 img-fluid rounded-circle" src={item.img} alt={item.name} />
                 <div className="w-100 d-flex flex-column text-start ps-4">
-                  <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                  <div className="d-flex justify-content-between border-bottom   pb-2 mb-2">
                     <h4>{item.name}</h4>
-                    <h4 className="text-primary">{item.price}</h4>
+                    <h4 className=" ">{item.price}</h4>
                   </div>
                   <p className="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                 </div>

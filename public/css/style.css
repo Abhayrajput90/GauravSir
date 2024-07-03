@@ -49,7 +49,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 
 /*** Button Start ***/
-.btn.btn-primary {
+.btn. {
     border: 0;
 }
 
@@ -220,12 +220,12 @@ h4, h5, h6, .h4, .h5, .h6 {
     color: var(--bs-white);
 }
 
-.service-item:hover .service-content-icon a.btn-primary {
+.service-item:hover .service-content-icon a. {
     background: var(--bs-white);
     color: var(--bs-dark);
 }
 
-.service-item .service-content-icon a.btn-primary {
+.service-item .service-content-icon a. {
     transition: 1s !important;
 }
 /*** Services End ***/

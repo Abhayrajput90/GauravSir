@@ -14,3 +14,13 @@
 .feature-item:hover {
   transform: scale(1.05);
 }
+.btn {
+  background-color: #d4a762 !important;
+
+}
+.border {
+  border-color: #0056b3;
+}
+a {
+  text-decoration: none !important;
+}

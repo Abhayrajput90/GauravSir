@@ -20,15 +20,15 @@ const Gallery = () => {
     <div className="container-fluid event py-6">
       <div className="container">
         <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
-          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Latest Events</small>
+          <small className="d-inline-block fw-bold text-dark text-uppercase bg-light border   rounded-pill px-4 py-1 mb-3">Latest Events</small>
           <h1 className="display-5 mb-5">Our Social & Professional Events Gallery</h1>
         </div>
         <div className="tab-className text-center">
-          <ul className="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+          <ul className="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp " data-wow-delay="0.1s">
             {['All Events', 'Wedding', 'Corporate', 'Cocktail', 'Buffet'].map((category, index) => (
               <li key={index} className="nav-item p-2">
                 <a
-                  className={`d-flex mx-2 py-2 border border-primary bg-light rounded-pill ${activeTab === category ? 'active' : ''}`}
+                  className={`d-flex text-decoration-none mx-2 py-2 border   bg-light rounded-pill ${activeTab === category ? 'active' : ''}`}
                   onClick={() => handleTabClick(category)}
                   href="#!"
                 >

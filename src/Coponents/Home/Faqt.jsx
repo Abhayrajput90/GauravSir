@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
+import stats from './Main.json';
 
-export const Faqt = ({ stats, videoUrl }) => {
+export const Faqt = () => {
     const [modalVisible, setModalVisible] = useState(false);
 
   const handleVideoModal = () => {
@@ -14,7 +15,7 @@ export const Faqt = ({ stats, videoUrl }) => {
         <div className="row g-4 align-items-center">
           <div className="col-lg-7">
             <div className="row g-4">
-              {stats.map((stat, index) => (
+              {stats?.stats?.map((stat, index) => (
                 <div key={index} className={`col-sm-4 wow bounceInUp`} data-wow-delay={`${0.3 + index * 0.2}s`}>
                   <div className="faqt-item bg-primary rounded p-4 text-center">
                     <i className={`fas ${stat.icon} fa-4x mb-4 text-white`}></i>
@@ -44,7 +45,7 @@ export const Faqt = ({ stats, videoUrl }) => {
               </div>
               <div className="modal-body">
                 <div className="ratio ratio-16x9">
-                  <iframe src={videoUrl} title="YouTube video" allowFullScreen></iframe>
+                  <iframe src={stats?.videoUrl} title="YouTube video" allowFullScreen></iframe>
                 </div>
               </div>
             </div>
