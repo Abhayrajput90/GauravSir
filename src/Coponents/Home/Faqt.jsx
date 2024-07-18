@@ -17,7 +17,7 @@ export const Faqt = () => {
             <div className="row g-4">
               {stats?.stats?.map((stat, index) => (
                 <div key={index} className={`col-sm-4 wow bounceInUp`} data-wow-delay={`${0.3 + index * 0.2}s`}>
-                  <div className="faqt-item bg-primary rounded p-4 text-center">
+                  <div className="faqt-item rounded p-4 text-center myborder">
                     <i className={`fas ${stat.icon} fa-4x mb-4 text-white`}></i>
                     <h1 className="display-4 fw-bold" data-toggle="counter-up">{stat.count}</h1>
                     <p className="text-dark text-uppercase fw-bold mb-0">{stat.label}</p>
@@ -27,7 +27,7 @@ export const Faqt = () => {
             </div>
           </div>
           <div className="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
-            <div className="video">
+            <div className="video myborder shadow">
               <button type="button" className="btn btn-play" onClick={handleVideoModal}>
                 <span></span>
               </button>

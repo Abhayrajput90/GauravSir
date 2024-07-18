@@ -111,7 +111,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: #d4a762;
 }
 
 .navbar .dropdown-toggle::after {
@@ -192,7 +192,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     top: 0;
     left: 0;
     bottom: auto;
-    background: var(--bs-primary);
+    background: #d4a762;
     border-radius: 8px;
     transition: 1s;
 }
@@ -200,6 +200,9 @@ h4, h5, h6, .h4, .h5, .h6 {
 .service-item:hover .service-content::after {
     height: 100%;
     opacity: 1;
+}
+.service-item:hover .btn {
+    background-color: navajowhite !important;
 }
 
 .service-item .service-content-icon {
@@ -233,7 +236,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 /*** Menu Start ***/
 .menu .nav-item a.active {
-    background: var(--bs-primary) !important;
+    background: #d4a762 !important;
 }
 
 .menu .menu-item .border-bottom {
@@ -359,7 +362,6 @@ h4, h5, h6, .h4, .h5, .h6 {
     background: #000000;
     opacity: 1;
 }
-/*** Youtube Video End ***/
 
 
 /*** Blog Start ***/
@@ -464,7 +466,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 /*** Footer Start ***/
 .footer .footer-item a.text-body:hover {
-    color: var(--bs-primary) !important;
+    color: #d4a762 !important;
 }
 /*** Footer End ***/
 

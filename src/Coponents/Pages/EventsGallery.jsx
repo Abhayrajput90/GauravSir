@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import eventsData from './Main.json';
+import eventsData from '../Home/Main.json';
+import CtaSection from '../CtaSection';
 
-const Gallery = () => {
+const EventsGallery = () => {
   const [data, setData] = useState([]);
   const [activeTab, setActiveTab] = useState('All Events');
 
@@ -16,6 +17,13 @@ const Gallery = () => {
   const filteredData = activeTab === 'All Events' ? data : data.filter(event => event.category === activeTab);
 
   return (
+    <>
+    <div className="about-bg">
+        <div className="about-text-overlay text-center">
+          <h1 className="about-title">Our Events</h1>
+          <p className="about-subtitle">See Events Gallery</p>
+        </div>
+      </div>
     <div className="container-fluid event py-6">
       <div className="container">
         <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
@@ -24,7 +32,7 @@ const Gallery = () => {
         </div>
         <div className="tab-className text-center">
           <ul className="nav nav-pills d-inline-flex justify-content-center flex-wrap mb-5 wow bounceInUp" data-wow-delay="0.1s">
-            {['All Events', 'Wedding', 'Corporate', 'Events', 'Buffet'].map((category, index) => (
+            {['All Events', 'Wedding', 'Corporate', 'Cocktail', 'Buffet'].map((category, index) => (
               <li key={index} className="nav-item col-6 col-md-auto p-2">
                 <a
                   className={`d-flex text-decoration-none mx-2 py-2 rounded-pill eventborder ${activeTab === category ? 'active-tab' : 'bg-light'}`}
@@ -52,7 +60,9 @@ const Gallery = () => {
         </div>
       </div>
     </div>
+    <CtaSection/>
+    </>
   );
 };
 
-export default Gallery;
+export default EventsGallery;

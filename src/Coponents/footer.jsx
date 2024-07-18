@@ -9,9 +9,9 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
-                        <div className="footer-item">
-                            <h1 className=" ">Cater<span className="text-dark">Serv</span></h1>
-                            <p className="lh-lg mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
+                        <div className="footer-item mb-4">
+                            <h1 className=" ">Indore<span className="text-dark">Caterers</span></h1>
+                            <p className="lh-lg mb-4">We offer full catering service with everything from table linens, serving pieces and servers to make your event a complete success..</p>
                             <div className="footer-icon d-flex">
                                 <a className="btn  btn-sm-square me-2 rounded-circle" href=""><i className="fab fa-facebook-f"></i></a>
                                 <a className="btn  btn-sm-square me-2 rounded-circle" href=""><i className="fab fa-twitter"></i></a>
@@ -23,22 +23,25 @@ function Footer() {
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-item">
                             <h4 className="mb-4">Special Facilities</h4>
-                            <div className="d-flex flex-column align-items-start">
-                                <a className="text-body mb-3" href=""><i className="fa fa-check   me-2"></i>Cheese Burger</a>
-                                <a className="text-body mb-3" href=""><i className="fa fa-check   me-2"></i>Sandwich</a>
-                                <a className="text-body mb-3" href=""><i className="fa fa-check   me-2"></i>Panner Burger</a>
-                                <a className="text-body mb-3" href=""><i className="fa fa-check   me-2"></i>Special Sweets</a>
+                            <div className="d-flex flex-column align-items-start ms-3 mb-2">
+                                <a className="text-body mb-3" ><i className="fa fa-check   me-2"></i>Our Menu</a>
+                                <a className="text-body mb-3" ><i className="fa fa-check   me-2"></i>Our Events</a>
+                                <a className="text-body mb-3" ><i className="fa fa-check   me-2"></i>Our Service</a>
+                                <a className="text-body mb-3" ><i className="fa fa-check   me-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-item">
                             <h4 className="mb-4">Contact Us</h4>
-                            <div className="d-flex flex-column align-items-start">
-                                <p><i className="fa fa-map-marker-alt   me-2"></i> 123 Street, New York, USA</p>
-                                <p><i className="fa fa-phone-alt   me-2"></i> (+012) 3456 7890 123</p>
-                                <p><i className="fas fa-envelope   me-2"></i> info@example.com</p>
-                                <p><i className="fa fa-clock   me-2"></i> 26/7 Hours Service</p>
+                            <div className="d-flex flex-column align-items-start mb-2">
+                                <p><i className="fa fa-map-marker-alt   me-2"></i> 
+                                Indore, India, Madhya Pradesh</p>
+                                <p><i className="fa fa-phone-alt   me-2"></i> 
+                                099267 77991</p>
+                                <p><i className="fas fa-envelope   me-2"></i> 
+                                indorecaterers@gmail.com</p>
+                                <p><i className="fa fa-clock   me-2"></i> 24/7 Hours Service</p>
                             </div>
                         </div>
                     </div>
@@ -71,21 +74,17 @@ function Footer() {
             </div>
         </div>
 
-        <div className="container-fluid copyright bg-dark py-4">
+        <div className="container-fluid copyright bg-dark py-3">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span className="text-light"><a href="#"><i className="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div className="col-md-6 my-auto text-center text-md-end text-white">
-                       
-                        Designed By <a className="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a className="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                    <div className="col-md-12 my-auto text-center text-white">
+                        <p className="m-0">All Copyright Reserved By @VirtualVoyage</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <a href="#" className="btn btn-md-square  rounded-circle back-to-top"><i className="fa fa-arrow-up"></i></a>   
+        <a href="#" className="btn btn-md-square pt-2 rounded-circle back-to-top"><i className="fa fa-arrow-up"></i></a>   
     </>
   )
 }

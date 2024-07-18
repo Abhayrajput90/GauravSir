@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import menuData from './Main.json';
+import menuData from '../Home/Main.json';
+import CtaSection from '../CtaSection';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const MenuPage = () => {
     const [data, setData] = useState([]);
     const [activeTab, setActiveTab] = useState('Slection');
     const [activeSubTab, setActiveSubTab] = useState('');
-    const [itemsToShow, setItemsToShow] = useState(20); // Initially show 20 items
+    const [itemsToShow, setItemsToShow] = useState(25); // Initially show 20 items
 
     useEffect(() => {
         // Load data from the JSON file
@@ -25,7 +26,7 @@ const MenuPage = () => {
     };
 
     const handleLoadMore = () => {
-        setItemsToShow(prev => prev + 15); // Increase the number of items to show by 20
+        setItemsToShow(prev => prev + 20); // Increase the number of items to show by 20
     };
 
     const filteredData = data.filter(item => item.category === activeTab && (!activeSubTab || item.subCategory === activeSubTab));
@@ -36,6 +37,12 @@ const MenuPage = () => {
 
     return (
         <>
+            <div className="about-bg">
+                <div className="about-text-overlay text-center">
+                    <h1 className="about-title">Our Menu</h1>
+                    <p className="about-subtitle">Popular Food</p>
+                </div>
+            </div>
             <div className="container-fluid menu bg-light py-6">
                 <div className="container">
                     <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
@@ -84,14 +91,15 @@ const MenuPage = () => {
                                 </div>
                             </div>
                         ))}
-                    {itemsToShow < filteredData.length && (
-                        <div className="text-center mt-4">
-                            <button className="btn btn-primary" onClick={handleLoadMore}>Load More</button>
-                        </div>
-                    )}
+                        {itemsToShow < filteredData.length && (
+                            <div className="text-center mt-4">
+                                <button className="btn btn-primary" onClick={handleLoadMore}>Load More</button>
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
+            <CtaSection/>
         </>
     );
 };

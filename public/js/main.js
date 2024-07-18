@@ -78,31 +78,7 @@
         }
     });
 
-    $(".testimonial-carousel-2").owlCarousel({
-        loop: true,
-        dots: false,
-        rtl: true,
-        margin: 25,
-        autoplay: true,
-        slideTransition: 'linear',
-        autoplayTimeout: 0,
-        autoplaySpeed: 10000,
-        autoplayHoverPause: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            575: {
-                items: 1
-            },
-            767: {
-                items: 2
-            },
-            991: {
-                items: 3
-            }
-        }
-    });
+    
 
 })(jQuery);
 

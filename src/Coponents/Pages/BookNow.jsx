@@ -30,11 +30,16 @@ const HomeForm = () => {
       onSubmit={(values) => {
         // Handle form submission
         console.log(values);
-        
       }}
     >
       {() => (
         <Form>
+           <div className="about-bg">
+                <div className="about-text-overlay text-center">
+                    <h1 className="about-title">Book Your Table</h1>
+                    <p className="about-subtitle">Food Is Good</p>
+                </div>
+            </div>
           <div className="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">
             <div className="container">
               <div className="row g-0">
@@ -87,9 +92,9 @@ const HomeForm = () => {
                       </div>
                       <div className="col-lg-4 col-md-6">
                         <Field as="select" name="foodType" className="form-select p-2">
-                          <option value="">Select Type</option>
-                          <option value="Vegetarian">Day</option>
-                          <option value="Non Vegetarian">Night</option>
+                          <option value="">Select Food Type</option>
+                          <option value="Vegetarian">Vegetarian</option>
+                          <option value="Non Vegetarian">Non Vegetarian</option>
                         </Field>
                         <ErrorMessage name="foodType" component="div" className="text-danger" />
                       </div>

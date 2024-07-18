@@ -1,9 +1,16 @@
-import React from 'react';
-import services from './Main.json'
-
-const Services = () => {
+import React from 'react'
+import services from '../Home/Main.json'
+import CtaSection from '../CtaSection'
+const ServicePage = () => {
   return (
-    <div className="container-fluid service py-6">
+    <>
+    <div className="about-bg">
+        <div className="about-text-overlay text-center">
+          <h1 className="about-title">Our Services</h1>
+          <p className="about-subtitle">Our Service Details</p>
+        </div>
+      </div>
+      <div className="container-fluid service py-6">
       <div className="container">
         <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
           <small className="d-inline-block fw-bold text-dark text-uppercase bg-light eventborder rounded-pill px-4 py-1 mb-3">
@@ -35,7 +42,9 @@ const Services = () => {
         </div>
       </div>
     </div>
-  );
-};
+    <CtaSection/>
+    </>
+  )
+}
 
-export default Services;
+export default ServicePage
