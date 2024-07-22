@@ -59,7 +59,7 @@ const AboutPage = () => {
           <h1 className="font-weight-bold mb-3 text-center">About Us</h1>
           <h5 className="text-muted mb-3">Providing exceptional catering services of many years, we pride ourselves on delivering delicious and memorable experiences for every event.</h5>
           <p>Our journey started in 1950, and since then, we have been dedicated to offering high-quality food and outstanding service. Whether it's a wedding, corporate event, or private party, our team is committed to making your occasion special with our traditional and innovative dishes.</p>
-          <Link to={'/contact'} className="btn btn-primary mt-2">Contact Now</Link>
+          <Link to={'/contact'} className="btn myborder mt-2">Contact Now</Link>
         </div>
         <div className="col-lg-4 p-2 rounded">
           <div className="position-relative h-100 rounded overflow-hidden">
@@ -70,20 +70,20 @@ const AboutPage = () => {
           <h1 className="font-weight-bold text-center mb-3">Our Features</h1>
           <p>We offer a wide range of catering services tailored to meet your needs. From intimate gatherings to large celebrations, we provide personalized menus and exceptional service to ensure your event is a success.</p>
           <ul className="list-unstyled">
-            <li className="mb-3">
-              <i className="fa fa-check me-2"></i>Cheese Burger
+            <li className="mb-3 ms-4">
+              <i className="fa fa-check me-2 "></i>Cheese Burger
             </li>
-            <li className="mb-3">
+            <li className="mb-3 ms-4">
               <i className="fa fa-check me-2"></i>Sandwich
             </li>
-            <li className="mb-3">
+            <li className="mb-3 ms-4">
               <i className="fa fa-check me-2"></i>Paneer Burger
             </li>
-            <li className="mb-3">
+            <li className="mb-3 ms-4">
               <i className="fa fa-check me-2"></i>Special Sweets
             </li>
           </ul>
-          <Link to={'/book'} className="btn myborder mt-2">Book Now</Link>
+          <Link to={'/book'} className="btn myborder mt-2 ms-4">Book Now</Link>
         </div>
       </div>
     </div>
