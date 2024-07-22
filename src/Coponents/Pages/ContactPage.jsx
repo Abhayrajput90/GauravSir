@@ -23,8 +23,18 @@ const validationSchema = Yup.object().shape({
 
 export const ContactPage = () => {
   const onSubmit = (values) => {
-    console.log('Form data', values);
-    // alert(JSON.stringify(values, null, 2));
+    // Construct the WhatsApp message
+    const whatsappMessage = `
+      Name: ${values.username}
+      Email: ${values.email}
+      Phone: ${values.phone}
+    `;
+
+    // Encode the message and create the WhatsApp URL
+    const whatsappURL = `https://api.whatsapp.com/send?phone=+919926777991&text=${encodeURIComponent(whatsappMessage.trim())}`;
+
+    // Open WhatsApp with the message
+    window.open(whatsappURL, '_blank');
   };
 
   return (

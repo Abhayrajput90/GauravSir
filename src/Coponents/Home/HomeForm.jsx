@@ -28,9 +28,19 @@ const HomeForm = () => {
       }}
       validationSchema={validationSchema}
       onSubmit={(values) => {
-        // Handle form submission
-        console.log(values);
+        const whatsappMessage = `
+          Name: ${values.name}
+          Email: ${values.email}
+          Contact Number: ${values.contactNumber}
+          Address: ${values.address}
+          Event Type: ${values.eventType}
+          Number of Plates: ${values.numberOfPlaces}
+          Food Type: ${values.foodType}
+          Date: ${values.date}
+        `;
         
+        const whatsappURL = `https://api.whatsapp.com/send?phone=+919926777991&text=${encodeURIComponent(whatsappMessage.trim())}`;
+        window.open(whatsappURL, '_blank');
       }}
     >
       {() => (

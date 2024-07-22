@@ -212,12 +212,207 @@
           "subCategory": "Break Fast",
           "name": "Biscuit, Cookies"
       },
-        {
-          "category": "Slection",
-          "subCategory": "Abhay",
-          "name": "Veg Spring Roll"
-      }
-    ],
+      {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Keshariya Jalebi"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Abhay",
+        "name": "Veg Spring Roll"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Hot Imarti"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Gulab Jamun"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Ras Gulla"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Moong Dal Halwa"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Gajar Ka Halwa"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Dudhpack"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Kalakand"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Malai Malpuva"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Chhaina Mithai"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Rasmalai"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Heeramani"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Break Fast",
+        "name": "Khopra Pak"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Welcome Drink",
+        "name": "Batter Milk"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Welcome Drink",
+        "name": "Pudina Chhach"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Welcome Drink",
+        "name": "Jaljeera"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Welcome Drink",
+        "name": "Kari Ka jholia"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Welcome Drink",
+        "name": "Kari Ka Panna"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Welcome Drink",
+        "name": "Lemon Soda Shinkji"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Welcome Drink",
+        "name": "Pudina Juice"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Curd Preparation",
+        "name": "Dahi Wada"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Curd Preparation",
+        "name": "Dhai Pakodi"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Curd Preparation",
+        "name": "Dhai Khasta"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Curd Preparation",
+        "name": "Ram Chakra Wada"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Curd Preparation",
+        "name": "Dahi Papdi Chat"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Curd Preparation",
+        "name": "Dahi Kachori Chat"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Curd Preparation",
+        "name": "Raita"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Samosa"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Kachori"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Patties"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Cutlet"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Mutter Roll"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Aloo Wada"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Dal Wada"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Sabudana Vada"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Mirchi Wada"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Mix Veg Pakoda"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": "Palak Pakoda, Corn Pakoda"
+    },
+    {
+        "category": "Slection",
+        "subCategory": "Hot Namkeen",
+        "name": ""
+    }
+],
 
   "aboutData": {
         "imageSrc": "img/About.jpg",

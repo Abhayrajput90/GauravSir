@@ -80,7 +80,7 @@ const MenuPage = () => {
                     )}
                     <div className="row g-5 mt-3 eventborder pb-4">
                         {visibleData.map((item, index) => (
-                            <div key={index} className="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay={`${0.1 * (index + 1)}s`}>
+                            <div key={index} className="col-lg-3 col-md-6 wow bounceInUp" >
                                 <div className="menu-item d-flex align-items-center">
                                     <img className="flex-shrink-0 imgSize rounded-circle" src="/public/img/check-mark.png" alt={item.name} />
                                     <div className="w-100 d-flex flex-column text-start ps-4">
