@@ -13,7 +13,7 @@ function Header() {
     <>
       <div className="container-fluid nav-bar">
         <div className="container">
-          <nav className="navbar navbar-light navbar-expand-lg py-4">
+          <nav className="navbar navbar-light navbar-expand-lg">
             <Link to="/" className="navbar-brand">
                <img className="WebLogo" src="/public/img/IndoreCaterers.png" alt="" />
             </Link>
@@ -33,49 +33,35 @@ function Header() {
               id="navbarCollapse"
             >
               <div className="navbar-nav mx-auto">
-                <Link to="/" className={`nav-item nav-link ${location.pathname === "/" ? "active" : ""}`}>
+                <Link to="/" className={`nav-item nav-link ${location.pathname === "/" ? "active" : "" }`}onClick={toggleNavbar}>
                   Home
                 </Link>
-                <Link to="/about" className={`nav-item nav-link ${location.pathname === "/about" ? "active" : ""}`}>
+                <Link to="/about" className={`nav-item nav-link ${location.pathname === "/about" ? "active" : ""}`} onClick={toggleNavbar}>
                   About
                 </Link>
-                <Link to="/services" className={`nav-item nav-link ${location.pathname === "/services" ? "active" : ""}`}>
+                <Link to="/services" className={`nav-item nav-link ${location.pathname === "/services" ? "active" : ""}`} onClick={toggleNavbar}>
                   Services
                 </Link>
-                <Link to="/events" className={`nav-item nav-link ${location.pathname === "/events" ? "active" : ""}`}>
+                <Link to="/events" className={`nav-item nav-link ${location.pathname === "/events" ? "active" : ""}`} onClick={toggleNavbar}>
                   Events
                 </Link>
-                <Link to="/menu" className={`nav-item nav-link ${location.pathname === "/menu" ? "active" : ""}`}>
+                <Link to="/menu" className={`nav-item nav-link ${location.pathname === "/menu" ? "active" : ""}`}onClick={toggleNavbar}>
                   Menu
                 </Link>
-                <div className="nav-item dropdown">
-                  <Link
-                    to="#"
-                    className="nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                  >
-                    Pages
-                  </Link>
-                  <div className="dropdown-menu bg-light">
-                    <Link to="/book" className={`dropdown-item ${location.pathname === "/book" ? "active" : ""}`}>
-                      Booking
-                    </Link>
-                    <Link to="/404" className={`dropdown-item ${location.pathname === "/404" ? "active" : ""}`}>
-                      404 Page
-                    </Link>
-                  </div>
-                </div>
-                <Link to="/contact" className={`nav-item nav-link ${location.pathname === "/contact" ? "active" : ""}`}>
+                <Link to="/book" className={`nav-item nav-link ${location.pathname === "/book" ? "active" : ""}`}onClick={toggleNavbar}>
+                  Booking
+                </Link>
+                <Link to="/contact" className={`nav-item nav-link ${location.pathname === "/contact" ? "active" : ""}`}onClick={toggleNavbar}>
                   Contact
                 </Link>
               </div>
-              <button
-                className="btn-search btn btn-md-square me-4 rounded-circle d-none d-lg-inline-flex"
-                data-bs-toggle="modal"
-                data-bs-target="#searchModal"
+              <a
+              href="tel:+919926777991"
+                className="btn phonrbtn btn-md-square me-4 rounded-circle d-none d-lg-inline-flex"
+               
               >
-                <i className="fas fa-search"></i>
-              </button>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </a>
               <Link
                 to="/book"
                 className="btn py-2 px-4 d-none d-xl-inline-block rounded-pill"
@@ -87,42 +73,7 @@ function Header() {
         </div>
       </div>
 
-      <div
-        className="modal fade"
-        id="searchModal"
-        tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog modal-fullscreen">
-          <div className="modal-content rounded-0">
-            <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">
-                Search by keyword
-              </h5>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body d-flex align-items-center">
-              <div className="input-group w-75 mx-auto d-flex">
-                <input
-                  type="search"
-                  className="form-control bg-transparent p-3"
-                  placeholder="keywords"
-                  aria-describedby="search-icon-1"
-                />
-                <span id="search-icon-1" className="input-group-text p-3">
-                  <i className="fa fa-search"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </>
   );
 }

@@ -51,375 +51,110 @@
   ],
 
   "events": [
-    { "img": "img/event-1.jpg", "category": "Wedding" },
-    { "img": "img/event-2.jpg", "category": "Corporate" },
-    { "img": "img/event-3.jpg", "category": "Wedding" },
-    { "img": "img/event-4.jpg", "category": "Buffet" },
-    { "img": "img/event-5.jpg", "category": "Events" },
-    { "img": "img/event-6.jpg", "category": "Wedding" },
-    { "img": "img/event-7.jpg", "category": "Buffet" },
-    { "img": "img/event-8.jpg", "category": "Corporate" }
+    { "img": "./img/event-1.jpg", "category": "Wedding" },
+    { "img": "./img/event-2.jpg", "category": "Corporate" },
+    { "img": "./img/event-3.jpg", "category": "Wedding" },
+    { "img": "./img/event-4.jpg", "category": "Buffet" },
+    { "img": "./img/event-5.jpg", "category": "Events" },
+    { "img": "./img/event-6.jpg", "category": "Wedding" },
+    { "img": "./img/event-7.jpg", "category": "Buffet" },
+    { "img": "./img/event-8.jpg", "category": "Corporate" }
   ],
 
   "menu": [
         {
             "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Indori Usal-poha"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Masala-Poha"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Samosa"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Kachori"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Corn, Onion, Hara Chana, Cheese"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Patties"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Cutlet"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Mini Aloo Wada"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Vegitables Mix Pakoda"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Bedmi Puri, Aloo ki Sabji"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Paratha With Dahi"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Matter Puri With Plain Dahi"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Vegitable upma with Barik Sev"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Sevaiya Upma"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Idli Sambhar, Bada Sambhar"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "uttapam"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Live Dhosa With Sambhar & Chutney"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Sabudana Khichdi"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Sabudana Vada"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Khaman with Green Chutney"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Veg Sandwich"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Masala Sandwich"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Bread & Butter"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Bread Toast"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Bread & Jam"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Bread & Chocolate Sauce"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Bread Roll"
-        },
-        {
-            "category": "Slection",
-            "subCategory": "Break Fast",
-            "name": "Grilled Sandwich"
+            "subCategory": ["Break Fast"],
+            "img": "./img/1.png"
         },
         {
           "category": "Slection",
-          "subCategory": "Break Fast",
-          "name": "Khakhra ghee Jeravan"
+          "subCategory": ["Lunch"],
+          "img": "./img/2.png"
       },
         {
           "category": "Slection",
-          "subCategory": "Break Fast",
-          "name": "Biscuit, Cookies"
+          "subCategory": ["Lunch"],
+          "img": "./img/3.png"
       },
-      {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Keshariya Jalebi"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Abhay",
-        "name": "Veg Spring Roll"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Hot Imarti"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Gulab Jamun"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Ras Gulla"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Moong Dal Halwa"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Gajar Ka Halwa"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Dudhpack"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Kalakand"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Malai Malpuva"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Chhaina Mithai"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Rasmalai"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Heeramani"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Break Fast",
-        "name": "Khopra Pak"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Welcome Drink",
-        "name": "Batter Milk"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Welcome Drink",
-        "name": "Pudina Chhach"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Welcome Drink",
-        "name": "Jaljeera"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Welcome Drink",
-        "name": "Kari Ka jholia"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Welcome Drink",
-        "name": "Kari Ka Panna"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Welcome Drink",
-        "name": "Lemon Soda Shinkji"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Welcome Drink",
-        "name": "Pudina Juice"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Curd Preparation",
-        "name": "Dahi Wada"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Curd Preparation",
-        "name": "Dhai Pakodi"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Curd Preparation",
-        "name": "Dhai Khasta"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Curd Preparation",
-        "name": "Ram Chakra Wada"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Curd Preparation",
-        "name": "Dahi Papdi Chat"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Curd Preparation",
-        "name": "Dahi Kachori Chat"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Curd Preparation",
-        "name": "Raita"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Samosa"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Kachori"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Patties"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Cutlet"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Mutter Roll"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Aloo Wada"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Dal Wada"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Sabudana Vada"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Mirchi Wada"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Mix Veg Pakoda"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": "Palak Pakoda, Corn Pakoda"
-    },
-    {
-        "category": "Slection",
-        "subCategory": "Hot Namkeen",
-        "name": ""
-    }
+        {
+          "category": "Slection",
+          "subCategory": ["Lunch"],
+          "img": "./img/4.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Dinner","Shake/Juice"],
+          "img": "./img/5.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Shake/Juice","Starter","Kebab/Tikka"],
+          "img": "./img/6.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Samosa/Kachori","Tikiya"],
+          "img": "./img/7.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Soup","Chineese Food","Special Cuisine"],
+          "img": "./img/8.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Special Cuisine"],
+          "img": "./img/9.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Special Cuisine"],
+          "img": "./img/10.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Special Cuisine"],
+          "img": "./img/11.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Special Dishes"],
+          "img": "./img/12.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Special Dishes"],
+          "img": "./img/13.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["Vegitables"],
+          "img": "./img/14.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["International Cuisine","Indian Breads"],
+          "img": "./img/15.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["All Sweets"],
+          "img": "./img/16.png"
+      },
+        {
+          "category": "Slection",
+          "subCategory": ["All Sweets"],
+          "img": "./img/17.png"
+      }
 ],
 
   "aboutData": {
-        "imageSrc": "img/About.jpg",
+        "imageSrc": "./img/About.jpg",
         "title": "Trusted by 200+ Satisfied Clients",
         "description": "We are dedicated to providing top-notch services to our clients. Our team ensures fresh and fast food delivery, exceptional 24/7 customer support, and easy customization options to cater to your needs. Experience our delicious deals for a truly satisfying meal.",
         "features": [
-            { "icon": "fa-truck", "text": "Fresh and Fast Food Delivery" },
+            { "icon": "fa-truck", "text": "Providing Best & Fresh Food" },
             { "icon": "fa-headset", "text": "24/7 Customer Support" },
             { "icon": "fa-cogs", "text": "Easy Customization Options" },
             { "icon": "fa-utensils", "text": "Delicious Deals for Delicious Meals" }

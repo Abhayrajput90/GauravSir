@@ -12,11 +12,11 @@ function Home() {
 
     return (
         <>
-            <div className="container-fluid bg-light py-6 my-2 mt-0">
+            <div className="container-fluid bg-light py-3 mt-0">
                 <div className="container">
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-7 col-md-12">
-                            <small className="d-inline-block fw-bold text-dark text-uppercase bg-light eventborder rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to IndoreCaterers</small>
+                            <small className="d-inline-block fw-bold text-dark text-uppercase bg-light eventborder rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to Indore Caterers</small>
                             <h1 className="display-1 mb-4 animated bounceInDown">Book <span className=" ">Indore</span>Caterers For Your Dream Event</h1>
                             <Link to={'/book'} className="btn  border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Book Now</Link>
                             <Link to={'/about'} className="btn  border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Know More</Link>
@@ -27,12 +27,11 @@ function Home() {
                     </div>
                 </div>
             </div>
-
             <About />
+            <Menu />
             <Services />
             <Faqt />
             <Gallery />
-            <Menu />
             <HomeForm/>
         </>
     )

@@ -64,7 +64,7 @@ export const ContactPage = () => {
                     <Field name="phone" type="text" className="w-100 form-control p-3 mb-4 bg-light" placeholder="Phone" />
                     <ErrorMessage name="phone" component="p" className="error text-danger" />
                   </div>
-                  <button className="w-100 btn btn-primary form-control p-3 rounded-pill" type="submit">
+                  <button className="w-100 btn p-3 rounded-pill" type="submit">
                     Contact Now
                   </button>
                 </Form>

@@ -6,37 +6,46 @@ const MenuPage = () => {
     const [data, setData] = useState([]);
     const [activeTab, setActiveTab] = useState('Slection');
     const [activeSubTab, setActiveSubTab] = useState('');
-    const [itemsToShow, setItemsToShow] = useState(20); // Initially show 20 items
+    const [itemsToShow, setItemsToShow] = useState(2);
 
     useEffect(() => {
-        // Load data from the JSON file
+
         setData(menuData.menu);
     }, []);
 
     const handleTabClick = (category) => {
         setActiveTab(category);
         setActiveSubTab('');
-        setItemsToShow(20); // Reset items to show when tab changes
+        setItemsToShow(20);
     };
 
     const handleSubTabClick = (event) => {
         setActiveSubTab(event.target.value);
-        setItemsToShow(20); // Reset items to show when sub-tab changes
+        setItemsToShow(20);
     };
 
     const handleLoadMore = () => {
-        setItemsToShow(prev => prev + 15); // Increase the number of items to show by 20
+        setItemsToShow(prev => prev + 3);
     };
+    const filteredData = data.filter(item =>
+        item.category.includes(activeTab) &&
+        (!activeSubTab || item.subCategory.includes(activeSubTab))
+    );
 
-    const filteredData = data.filter(item => item.category === activeTab && (!activeSubTab || item.subCategory === activeSubTab));
 
-    const visibleData = filteredData.slice(0, itemsToShow); // Get only the items to show
+    const visibleData = filteredData.slice(0, itemsToShow);
 
-    const subCategories = [...new Set(data.filter(item => item.category === activeTab).map(item => item.subCategory))];
+    const subCategories = [
+        ...new Set(
+            data
+                .filter(item => item.category.includes(activeTab))
+                .flatMap(item => item.subCategory)
+        ),
+    ];
 
     return (
         <>
-            <div className="container-fluid menu bg-light py-6">
+           <div className="container-fluid menu bg-light py-6">
                 <div className="container">
                     <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
                         <small className="d-inline-block fw-bold text-dark text-uppercase bg-light eventborder rounded-pill px-4 py-1 mb-3">Our Menu</small>
@@ -71,24 +80,18 @@ const MenuPage = () => {
                             </select>
                         </div>
                     )}
-                    <div className="row g-5 mt-3 eventborder pb-4">
+                    <div className="row mt-3 eventborder pb-4">
                         {visibleData.map((item, index) => (
-                            <div key={index} className="col-lg-3 col-md-6 wow bounceInUp">
-                                <div className="menu-item d-flex align-items-center">
-                                    <img className="flex-shrink-0 imgSize rounded-circle" src="/public/img/check-mark.png" alt={item.name} />
-                                    <div className="w-100 d-flex flex-column text-start ps-4">
-                                        <div className="d-flex borderBottom">
-                                            <h5>{item.name}</h5>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div key={index} className="col-12  wow bounceInUp" >
+                                    <img className=" imgSize myimages" src={item.img} />
+                                    
                             </div>
                         ))}
-                    {itemsToShow < filteredData.length && (
-                        <div className="text-center mt-4">
-                            <button className="btn btn-primary" onClick={handleLoadMore}>Load More</button>
-                        </div>
-                    )}
+                        {itemsToShow < filteredData.length && (
+                            <div className="text-center mt-2">
+                                <button className="btn " onClick={handleLoadMore}>Load More</button>
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>

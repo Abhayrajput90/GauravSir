@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutData from './Main.json';
+import { Link } from 'react-router-dom';
 
 export const About = () => {
   return (
@@ -26,9 +27,9 @@ export const About = () => {
                   </div>
                 ))}
               </div>
-              <a  className="btn py-3 px-5 rounded-pill">
+              <Link to={"/about"} className="btn py-3 px-5 rounded-pill">
                 Learn More<i className="fas fa-arrow-right ps-2"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
