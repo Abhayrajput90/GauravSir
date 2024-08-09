@@ -48,7 +48,7 @@ const HomeForm = () => {
            <div className="about-bg">
                 <div className="about-text-overlay text-center">
                     <h1 className="about-title">Book Your Table</h1>
-                    <p className="about-subtitle">Food Is Good</p>
+                    <p className="about-subtitle">Great Test For Every occasion</p>
                 </div>
             </div>
           <div className="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">

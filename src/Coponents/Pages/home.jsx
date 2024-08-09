@@ -6,6 +6,7 @@ import Gallery from "../Home/Gallery";
 import Menu from "../Home/Menu";
 import HomeForm from "../Home/HomeForm";
 import { Link } from "react-router-dom";
+import UpdateMenu from "../UpdateMenu";
 
 function Home() {
 
@@ -28,6 +29,7 @@ function Home() {
                 </div>
             </div>
             <About />
+            <UpdateMenu/>
             <Menu />
             <Services />
             <Faqt />

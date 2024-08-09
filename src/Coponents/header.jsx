@@ -15,7 +15,7 @@ function Header() {
         <div className="container">
           <nav className="navbar navbar-light navbar-expand-lg">
             <Link to="/" className="navbar-brand">
-               <img className="WebLogo" src="/public/img/IndoreCaterers.png" alt="" />
+              <img className="WebLogo" src="/public/img/IndoreCaterers.png" alt="" />
             </Link>
             <button
               className="navbar-toggler py-2 px-3"
@@ -29,11 +29,11 @@ function Header() {
               <span className="fa fa-bars"></span>
             </button>
             <div
-              className={`collapse navbar-collapse ${!isCollapsed ? "show" : ""}`}
+              className={`collapse visible navbar-collapse ${!isCollapsed ? "show" : ""}`}
               id="navbarCollapse"
             >
               <div className="navbar-nav mx-auto">
-                <Link to="/" className={`nav-item nav-link ${location.pathname === "/" ? "active" : "" }`}onClick={toggleNavbar}>
+                <Link to="/" className={`nav-item nav-link ${location.pathname === "/" ? "active" : ""}`} onClick={toggleNavbar}>
                   Home
                 </Link>
                 <Link to="/about" className={`nav-item nav-link ${location.pathname === "/about" ? "active" : ""}`} onClick={toggleNavbar}>
@@ -45,22 +45,22 @@ function Header() {
                 <Link to="/events" className={`nav-item nav-link ${location.pathname === "/events" ? "active" : ""}`} onClick={toggleNavbar}>
                   Events
                 </Link>
-                <Link to="/menu" className={`nav-item nav-link ${location.pathname === "/menu" ? "active" : ""}`}onClick={toggleNavbar}>
+                <Link to="/menu" className={`nav-item nav-link ${location.pathname === "/menu" ? "active" : ""}`} onClick={toggleNavbar}>
                   Menu
                 </Link>
-                <Link to="/book" className={`nav-item nav-link ${location.pathname === "/book" ? "active" : ""}`}onClick={toggleNavbar}>
+                <Link to="/book" className={`nav-item nav-link ${location.pathname === "/book" ? "active" : ""}`} onClick={toggleNavbar}>
                   Booking
                 </Link>
-                <Link to="/contact" className={`nav-item nav-link ${location.pathname === "/contact" ? "active" : ""}`}onClick={toggleNavbar}>
+                <Link to="/contact" className={`nav-item nav-link ${location.pathname === "/contact" ? "active" : ""}`} onClick={toggleNavbar}>
                   Contact
                 </Link>
               </div>
               <a
-              href="tel:+919926777991"
+                href="tel:+919926777991"
                 className="btn phonrbtn btn-md-square me-4 rounded-circle d-none d-lg-inline-flex"
-               
+
               >
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i className="fa fa-phone" aria-hidden="true"></i>
               </a>
               <Link
                 to="/book"
@@ -73,7 +73,7 @@ function Header() {
         </div>
       </div>
 
-      
+
     </>
   );
 }

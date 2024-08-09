@@ -1,4 +1,4 @@
-
+import React from 'react'
 import Header from './Coponents/header'
 import Footer from './Coponents/footer'
 import Spinner from './Coponents/spinner'
