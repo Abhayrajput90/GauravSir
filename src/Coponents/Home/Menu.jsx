@@ -26,6 +26,8 @@ const MenuPage = () => {
 
     const handleLoadMore = () => {
         setItemsToShow(prev => prev + 3);
+        // console.log(prev => prev + 3);
+        
     };
     const filteredData = data.filter(item =>
         item.category.includes(activeTab) &&

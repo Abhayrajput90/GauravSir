@@ -3,7 +3,7 @@ import { About } from "../Home/About"
 import { Faqt } from "../Home/Faqt";
 import Services from "../Home/Services";
 import Gallery from "../Home/Gallery";
-import Menu from "../Home/Menu";
+// import Menu from "../Home/Menu";
 import HomeForm from "../Home/HomeForm";
 import { Link } from "react-router-dom";
 import UpdateMenu from "../UpdateMenu";
@@ -30,7 +30,7 @@ function Home() {
             </div>
             <About />
             <UpdateMenu/>
-            <Menu />
+            {/* <Menu /> */}
             <Services />
             <Faqt />
             <Gallery />
