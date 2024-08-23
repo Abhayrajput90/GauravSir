@@ -45,7 +45,7 @@ const HomeForm = () => {
     >
       {() => (
         <Form>
-          <div className="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">
+          <div className="container-fluid contact py-6 my-20 wow bounceInUp" data-wow-delay="0.1s">
             <div className="container">
               <div className="row g-0">
                 <div className="col-1">

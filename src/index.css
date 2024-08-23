@@ -196,6 +196,12 @@ a {
 .myimages{
   padding: 40px;
 }
+.bg-accent{
+  background-color: #fbf4ea33 !important;
+}
+.btnbolder{
+  font-weight: bolder !important;
+}
 @media screen and (max-width: 480px) {
   .myimages{
     padding: 10px !important;

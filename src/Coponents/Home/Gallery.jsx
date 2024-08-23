@@ -16,7 +16,7 @@ const Gallery = () => {
   const filteredData = activeTab === 'All Events' ? data : data.filter(event => event.category === activeTab);
 
   return (
-    <div className="container-fluid event py-6">
+    <div className="container-fluid event py-6 my-20">
       <div className="container">
         <div className="text-center wow bounceInUp" data-wow-delay="0.1s">
           <small className="d-inline-block fw-bold text-dark text-uppercase bg-light eventborder rounded-pill px-4 py-1 mb-3">Latest Events</small>

@@ -13,7 +13,7 @@ function Home() {
 
     return (
         <>
-            <div className="container-fluid bg-light py-3 mt-0">
+            <div className="container-fluid bg-light py-3 mb-5 mt-0">
                 <div className="container">
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-7 col-md-12">

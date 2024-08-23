@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const About = () => {
   return (
     <div>
-      <section className="section-about py-6">
+      <section className="section-about py-6 my-20">
         <div className="container">
           <div className="row g-4 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">

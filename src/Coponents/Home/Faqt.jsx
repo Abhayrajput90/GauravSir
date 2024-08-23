@@ -10,7 +10,7 @@ export const Faqt = () => {
   };
   return (
     <div>
-        <div className="container-fluid faqt py-6">
+        <div className="container-fluid faqt py-6 my-20">
       <div className="container">
         <div className="row g-4 align-items-center">
           <div className="col-lg-7">
